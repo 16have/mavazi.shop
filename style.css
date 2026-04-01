@@ -1,0 +1,91 @@
+nav{
+    background-color: pink;
+    padding: 10px;
+    justify-content: right;
+}
+
+body{
+  background-image: url("pics/pexels-nietjuhart-934070.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: auto;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+p {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+ul li {
+  color: pink;
+  font-weight: bold;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+footer {
+  background-color: rgba(81, 78, 78, 0.5);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.services.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.services.item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+button {
+  background-color: pink;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: pink;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1)0.3s;
+
+} 
+button:active {
+  background-color: pink;
+}   
+button {
+    position: relative;
+    font-style: italic;
+    color: black;
+}  
+.services.item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.services.item iframe {
+  border: none;
+  margin-top: 15px;
+  border-radius: 10px;
+}
